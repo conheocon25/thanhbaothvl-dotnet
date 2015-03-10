@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<app>
+  <appname>HỆ THỐNG QUẢN LÝ VŨ KHÍ</appname>
+  <applocation>TP, Vĩnh Long</applocation>
+  <dbserver>localhost</dbserver>
+  <dbname>spncom_caytretramdot_police_weapon_manager</dbname>
+  <dbuser>spncom_admindb</dbuser>
+  <dbpass>admin368189</dbpass>
+  <key>858BB234DE3567F0DC0D28F778D95A176E5887D2</key>
+</app>
