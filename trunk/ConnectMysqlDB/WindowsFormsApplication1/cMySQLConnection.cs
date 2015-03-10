@@ -28,10 +28,10 @@ namespace WindowsFormsApplication1
         }
         private void Initialize()
         {
-            server = "gator3155.hostgator.com";
+            server = "localhost";
             database = "spncom_qlkaraoke_baduc";
-            uid = "spncom_admindb";
-            password = "admin368189";
+            uid = "root";
+            password = "admin123456";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -261,7 +261,7 @@ namespace WindowsFormsApplication1
             }
             catch (IOException ex)
             {
-                MessageBox.Show("Error , unable to backup!");
+                MessageBox.Show("Error , unable to backup!" + ex.Source);
             }
         }
 
@@ -294,7 +294,7 @@ namespace WindowsFormsApplication1
             }
             catch (IOException ex)
             {
-                MessageBox.Show("Error , unable to Restore!");
+                MessageBox.Show("Error , unable to Restore!" + ex.Source);
             }
         }
     }
